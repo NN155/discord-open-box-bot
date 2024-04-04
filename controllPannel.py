@@ -27,12 +27,7 @@ def controllWindow(driver):
         except:
             pass
         try:
-            element = driver.find_element(By.XPATH, "(//*[name()='svg'])[63]")
-            element.click()
-        except:
-            pass
-        try:
-            element = driver.find_element(By.XPATH, "(//*[name()='svg'])[64]")
+            element = driver.find_element(By.XPATH, '//*[name()="svg"][@height="1080"]')
             element.click()
         except:
             pass
